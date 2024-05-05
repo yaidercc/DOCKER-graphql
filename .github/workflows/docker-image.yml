@@ -28,7 +28,9 @@ jobs:
     - name: Build Docker Image
       run: |
          docker build --tag rediatcc/docker-graphql:0.0.2 .
+         docker build --tag rediatcc/docker-graphql:latest .
 
     - name: Push Docker Image
       run: |
         docker push rediatcc/docker-graphql:0.0.2
+         docker push rediatcc/docker-graphql:latest
