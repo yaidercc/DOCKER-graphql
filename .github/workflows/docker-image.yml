@@ -31,4 +31,4 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push rediatcc/docker-graphql:0.0.2 .
+        docker push rediatcc/docker-graphql:0.0.2
